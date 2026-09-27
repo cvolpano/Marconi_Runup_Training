@@ -1,0 +1,27 @@
+name: runup
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - numpy
+  - scipy
+  - xarray
+  - netcdf4
+  - matplotlib
+  - pandas
+  - scikit-image
+  - onnxruntime
+  - opencv
+  - pytz
+  - python-dateutil
+  - utm
+  - fsspec
+  - requests
+  - pyyaml
+  - statsmodels
+  - ipykernel
+  - pip
+  - pip:
+    - dbfread
+    - mat73
+    - python-dateutil

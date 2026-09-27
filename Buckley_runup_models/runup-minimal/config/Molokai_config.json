@@ -1,0 +1,40 @@
+{
+    "directories":
+    {
+        "netcdfDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/runup/timestack_netcdf_ML",
+        "figureDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/runup/figures",
+        "topoDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/geometry",
+        "uvTopDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/Data_Release_Calibration",
+        "xyzTopDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/geometry",
+        "rawDirTop": "",
+        "stackDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/runup/timestacks_mat",
+        "segDir": "//gs/stpetersburgfl-g/NACCH/Data/MolokaiHI/runup/segmentation_files",
+        "s3TopDir": "s3://cmgp-coastcam/cameras/molokai/c2"
+    },
+
+    "metadata":
+    {
+        "saveName": "MolokaiHI",
+        "references": "Harrison, S.R., Buckley, M.L., Logan, J., Pomeroy, A.W.M., Storlazzi, C.D., Birchler, J.J., Palmsten, M.L., Swanson, E., and Johnson, E.L., 2024, USGS CoastCam at Waiakane, Molokai, Hawaii: 2018 calibration and GNSS topography survey data: U.S Geological Survey data release, https://doi.org/10.5066/P13XN6KM. ;  Holman, R. A. and J. Stanley (2007). The history and technical capabilities of Argus. Coastal Engineering 54(6-7): 477-491. ; Holland,T., Holman, R. A., Lippmann, T. C., Stanley, J., and Plant, N., Practical use of video imagery in nearshore oceanographic field studies, in IEEE Journal of Oceanic Engineering, vol. 22, no. 1, pp. 81-92, Jan. 1997, https://doi.org/10.1109/48.557542.; OCM Partners, (2024). 2013 USACE NCMP Topobathy Lidar DEM (LMSL): Molokai, HI from 2010-06-15 to 2010-08-15. NOAA National Centers for Environmental Information. https://www.fisheries.noaa.gov/inport/item/64983. ; Palmsten, M. L. and K. L. Brodie (2022). The Coastal Imaging Research Network (CIRN). Remote Sensing 2022, 14, 453. ;  Plant, N.G., Holland, K.T., Puleo, J.A., 2002. Analysis of the scale of errors in nearshore bathymetric data. Mar. Geol. 191, 71-86. ;  Rosenberger, K., Cheriton, O., & Storlazzi, C. D. (2020). Cross-reef wave and water level data from coral reef environments [Data set]. U.S. Geological Survey. https://doi.org/10.5066/P9RYN5NH",
+        "contributors": "Shawn R. Harrison, Mark L. Buckley, Joshua Logan, Andrew W.M. Pomeroy, Curt D. Storlazzi, Justin J. Birchler, Margaret L. Palmsten, Eric Swanson, Emily L. Johnson",
+        "siteLocation": "Molokai, Hawaii, USA",
+        "dataOrigin": "USGS Pacific Coastal and Marine Science Center",
+        "camMake": "FLIR",
+        "camModel": "BFLY-PGE-50S5C-C",
+        "camLens": "FUJINON HF6XA-5M",
+        "timezone": "HST",
+        "utmZone": "04Q",
+        "verticalDatum": "LMSL",
+        "verticalDatum_description": "Local mean sea level"
+    },
+
+    "flags":
+    {
+        "exampleStackName": "1533340860.Sat.Aug.04_00_01_00.GMT.2018.molokai.c2.runup03.mat",
+        "exampleTopoName": "topoSurveyInterpMaskedAllTopo<date>_lidar_elevationCapped.mat",
+        "writeOverNC": 0,
+        "startDate": "2010-01-01",
+        "endDate": "2030-01-31",
+
+    }
+}

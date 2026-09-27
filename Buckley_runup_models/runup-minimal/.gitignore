@@ -1,0 +1,7 @@
+*.log
+*.pyc
+__pycache__/
+logs/
+runup_demo_files/output/
+.vscode/
+*.ipynb_checkpoints/

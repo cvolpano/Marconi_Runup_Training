@@ -1,0 +1,12 @@
+x: 323056.015
+y: 3075921.479
+z: 19.228
+azimuth: 289.386205
+tilt: 80.020951
+roll: 1.9687
+#x - camera Easting (meters, UTM zone 17N)
+#y - camera Northing (meters, UTM zone 17N)
+#z - camera elevation (meters, NAVD88)
+#azimuth - camera azimuth, the horizontal direction (degrees) the camera is pointing. Positive clockwise (CW) from World Y Axis.
+#tilt - camera tilt, rotation around a horizontal axis going through the camera perpendicular to the lens which moves the field of view up and down. 0 is the camera looking nadir, 90 is the camera looking at the horizon right side up, 180 is looking directly up, and so on.
+#roll - camera roll, rotation around a horizontal axis going through the length of the lens. 0 degrees is a horizontal flat camera. Looking from behind the camera, counterclockwise (CCW) rotation of the camera would result in a positive roll.

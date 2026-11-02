@@ -1,6 +1,0 @@
-x_origin: 274654.520
-y_origin: 901781.735
-angd: 20.0253
-#x_origin - x location of site origin (meters, UTM zone 18S)
-#y_origin - y location of site origin (meters, UTM zone 18S)
-#angd - orientation of the local grid, referenced from North

@@ -1,0 +1,6 @@
+x_origin: 691642.000
+y_origin: 2333558.000
+localAngle: 270.000
+#x_origin - x origin of local coordinate system, Easting (meters, UTM zone 04Q)
+#y_origin - y origin of local coordinate system, Northing (meters, UTM zone 04Q)
+#localAngle - relative angle between the local grid x-axis and the UTM (world coordinates) x-axis, positive counter-clockwise from the old (world) X. Units are degrees
